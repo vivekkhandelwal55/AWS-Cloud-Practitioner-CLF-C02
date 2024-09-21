@@ -1,0 +1,33 @@
+
+ - ON Demand
+		 - Linux or Windows - billing per second, after the first minute
+		 - All other operating systems
+	 - Has Higher Cost
+	 - No Long Term Commitment
+ - Reserved Instance
+	 - Upto 72% discount compared to on-demand
+	 - reservation period -  1 year(+) or 3 (year)(+++)
+	 - Payment method - No upfront(+), Partial Upfront(++) , All Upfront (+++)
+	 - Recommended for steady-state usage application like database
+	 - there is market place for buying and selling in Reserved Instance Marketplace
+ - Convertible Reserved Instances
+	 - Can change - instance type, os, tenancy and scope
+	 - upto 66% discount
+ - Savings Plan
+	 - get discount on long term usage(72% same as RI)
+	 - commit to specific usage like 10$ per hour and above that it will be priced accoriding on-demand
+	 - commit to instance family type and aws region
+	 - flexible across  - OS, instance size and tenancy
+ - Spot Instance
+	 - instance you can lose at any point of time if your max price is less than the current spot price
+	 - you can get upto 90% discount compared to on Demand 
+	 - most cost efficient in AWS
+	 - suitable for works that are resilient to failure
+		 - Batch Jobs
+		 - Data Analysis
+		 - Image Processing
+		 - Workloads with flexible start and stop time
+	 - not suitable for critical jobs or databases
+ - Dedicated Hosts
+ - Dedicated Instances
+ - Capacity Reservations
